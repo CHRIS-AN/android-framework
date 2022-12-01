@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:2:1-24:12
 MERGED from [androidx.databinding:databinding-adapters:4.0.1] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/94738659113e1432a37e3e07f73962f8/databinding-adapters-4.0.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.0.1] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/2c5f3d6d3f2f2a3441074bc31f5058ae/databinding-runtime-4.0.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-rc1] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/ccbac9635d6a34462151dd5caa14c23a/constraintlayout-2.0.0-rc1/AndroidManifest.xml:2:1-11:12
@@ -61,25 +61,25 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/6ad6fc86f1919886880b460c827d63dd/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/9874e411366b0f2a0e86e9c1bcceca9d/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/a6dfd68aff61b817ece7fb52a56eeb3f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:3:5-54
-		INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:3:5-54
+		INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:5:5-22:19
+ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:5:5-22:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-rc1] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/ccbac9635d6a34462151dd5caa14c23a/constraintlayout-2.0.0-rc1/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-rc1] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/ccbac9635d6a34462151dd5caa14c23a/constraintlayout-2.0.0-rc1/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/177240f3aed72e22191ec8c9e8b65a50/material-1.0.0/AndroidManifest.xml:22:5-20
@@ -97,41 +97,41 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/chri
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/21831f77a9a0ca1233e2d00ac78bec03/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:9:9-68
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:9:9-68
 	android:icon
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:7:9-57
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:7:9-57
 	android:allowBackup
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:11:9-40
 activity#com.example.android.trackmysleepquality.MainActivity
-ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:12:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:16:27-74
 meta-data#preloaded_fonts
-ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:19:9-21:57
+ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:19:9-21:57
 	android:resource
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:21:13-54
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:21:13-54
 	android:name
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml:20:13-43
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml:20:13-43
 uses-sdk
-INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml
-INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml
+INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:databinding-adapters:4.0.1] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/94738659113e1432a37e3e07f73962f8/databinding-adapters-4.0.1/AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-adapters:4.0.1] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/94738659113e1432a37e3e07f73962f8/databinding-adapters-4.0.1/AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:4.0.1] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/2c5f3d6d3f2f2a3441074bc31f5058ae/databinding-runtime-4.0.1/AndroidManifest.xml:22:5-44
@@ -246,16 +246,16 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/chrisan/.gradle/ca
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/9874e411366b0f2a0e86e9c1bcceca9d/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/a6dfd68aff61b817ece7fb52a56eeb3f/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/a6dfd68aff61b817ece7fb52a56eeb3f/cardview-1.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml
-INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml
+INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml
-		ADDED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chrisan/workspace/framework/coroutine/app/src/main/AndroidManifest.xml
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.2.5] /Users/chrisan/.gradle/caches/transforms-2/files-2.1/c0bfdd0eea52eba8bea9c9f4e99b30a2/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
 	android:exported

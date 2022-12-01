@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml",
+            "outputFile": "/Users/chrisan/workspace/framework/coroutine/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml",
             "map": [
                 {
                     "source": "/Users/chrisan/.gradle/caches/transforms-2/files-2.1/8d26121c13735152464d1766c9845e2d/appcompat-1.2.0/res/values-uz/values-uz.xml",

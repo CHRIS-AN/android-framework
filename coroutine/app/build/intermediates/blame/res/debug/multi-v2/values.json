@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/chrisan/workspace/framework/coroutine/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/chrisan/.gradle/caches/transforms-2/files-2.1/9ce9840cb5ffd68c2565ac1aa714fe2b/coordinatorlayout-1.0.0/res/values/values.xml",
@@ -42,23 +42,6 @@
                     }
                 },
                 {
-                    "source": "/Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/res/values/dimens.xml",
-                    "from": {
-                        "startLines": "18,17,19,20",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "726,688,767,814",
-                        "endColumns": "40,37,46,44",
-                        "endOffsets": "762,721,809,854"
-                    },
-                    "to": {
-                        "startLines": "578,582,650,659",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "34342,34606,38684,39184",
-                        "endColumns": "40,37,46,44",
-                        "endOffsets": "34378,34639,38726,39224"
-                    }
-                },
-                {
                     "source": "/Users/chrisan/.gradle/caches/transforms-2/files-2.1/2c5f3d6d3f2f2a3441074bc31f5058ae/databinding-runtime-4.0.1/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -76,20 +59,22 @@
                     }
                 },
                 {
-                    "source": "/Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/res/values/colors.xml",
+                    "source": "/Users/chrisan/workspace/framework/coroutine/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "20,18,19,22,23",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "787,689,736,834,880",
-                        "endColumns": "45,46,50,45,50",
-                        "endOffsets": "828,731,782,875,926"
+                        "startLines": "19,26",
+                        "startColumns": "4,4",
+                        "startOffsets": "726,1046",
+                        "endLines": "23,31",
+                        "endColumns": "12,12",
+                        "endOffsets": "996,1376"
                     },
                     "to": {
-                        "startLines": "365,366,367,387,433",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "20085,20131,20178,21538,24570",
-                        "endColumns": "45,46,50,45,50",
-                        "endOffsets": "20126,20173,20224,21579,24616"
+                        "startLines": "837,2490",
+                        "startColumns": "4,4",
+                        "startOffsets": "50807,160248",
+                        "endLines": "841,2495",
+                        "endColumns": "12,12",
+                        "endOffsets": "51077,160578"
                     }
                 },
                 {
@@ -165,25 +150,6 @@
                     }
                 },
                 {
-                    "source": "/Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/res/values/preloaded_fonts.xml",
-                    "from": {
-                        "startLines": "17",
-                        "startColumns": "4",
-                        "startOffsets": "688",
-                        "endLines": "19",
-                        "endColumns": "12",
-                        "endOffsets": "786"
-                    },
-                    "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "3667",
-                        "endLines": "18",
-                        "endColumns": "12",
-                        "endOffsets": "3765"
-                    }
-                },
-                {
                     "source": "/Users/chrisan/.gradle/caches/transforms-2/files-2.1/b1145cb191e392a66f6819eda206f47e/fragment-1.2.5/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,9",
@@ -200,6 +166,23 @@
                         "endLines": "700,743,4306,4310",
                         "endColumns": "56,63,24,24",
                         "endOffsets": "41650,43748,284485,284634"
+                    }
+                },
+                {
+                    "source": "/Users/chrisan/workspace/framework/coroutine/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "19,26,53,39,50,49,41,44,46,40,29,30,31,32,33,34,21,20,24,38,25,48,37,47,45",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "732,1042,2328,1668,2210,2153,1793,1910,2028,1729,1141,1195,1249,1303,1357,1411,864,792,964,1603,1004,2113,1524,2070,1977",
+                        "endColumns": "59,39,74,60,53,56,80,66,41,63,53,53,53,53,53,53,71,71,39,64,37,39,78,42,50",
+                        "endOffsets": "787,1077,2398,1724,2259,2205,1869,1972,2065,1788,1190,1244,1298,1352,1406,1460,931,859,999,1663,1037,2148,1598,2108,2023"
+                    },
+                    "to": {
+                        "startLines": "786,791,792,793,796,797,799,800,804,810,811,812,813,814,815,816,818,819,820,821,823,824,825,826,827",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "46554,47086,47126,47201,47576,47630,47840,47921,48232,49076,49140,49194,49248,49302,49356,49410,49517,49589,49661,49701,49837,49875,49915,49994,50037",
+                        "endColumns": "59,39,74,60,53,56,80,66,41,63,53,53,53,53,53,53,71,71,39,64,37,39,78,42,50",
+                        "endOffsets": "46609,47121,47196,47257,47625,47682,47916,47983,48269,49135,49189,49243,49297,49351,49405,49459,49584,49656,49696,49761,49870,49910,49989,50032,50083"
                     }
                 },
                 {
@@ -220,22 +203,39 @@
                     }
                 },
                 {
-                    "source": "/Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/res/values/styles.xml",
+                    "source": "/Users/chrisan/workspace/framework/coroutine/app/src/main/res/values/font_certs.xml",
                     "from": {
-                        "startLines": "19,26",
-                        "startColumns": "4,4",
-                        "startOffsets": "726,1046",
-                        "endLines": "23,31",
-                        "endColumns": "12,12",
-                        "endOffsets": "996,1376"
+                        "startLines": "17,21,26",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "688,890,2615",
+                        "endLines": "20,25,30",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "885,2610,4200"
                     },
                     "to": {
-                        "startLines": "837,2490",
-                        "startColumns": "4,4",
-                        "startOffsets": "50807,160248",
-                        "endLines": "841,2495",
-                        "endColumns": "12,12",
-                        "endOffsets": "51077,160578"
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "150,352,2077",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "347,2072,3662"
+                    }
+                },
+                {
+                    "source": "/Users/chrisan/workspace/framework/coroutine/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "18,17,19,20",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "726,688,767,814",
+                        "endColumns": "40,37,46,44",
+                        "endOffsets": "762,721,809,854"
+                    },
+                    "to": {
+                        "startLines": "578,582,650,659",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "34342,34606,38684,39184",
+                        "endColumns": "40,37,46,44",
+                        "endOffsets": "34378,34639,38726,39224"
                     }
                 },
                 {
@@ -258,20 +258,20 @@
                     }
                 },
                 {
-                    "source": "/Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/res/values/strings.xml",
+                    "source": "/Users/chrisan/workspace/framework/coroutine/app/src/main/res/values/colors.xml",
                     "from": {
-                        "startLines": "19,26,53,39,50,49,41,44,46,40,29,30,31,32,33,34,21,20,24,38,25,48,37,47,45",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "732,1042,2328,1668,2210,2153,1793,1910,2028,1729,1141,1195,1249,1303,1357,1411,864,792,964,1603,1004,2113,1524,2070,1977",
-                        "endColumns": "59,39,74,60,53,56,80,66,41,63,53,53,53,53,53,53,71,71,39,64,37,39,78,42,50",
-                        "endOffsets": "787,1077,2398,1724,2259,2205,1869,1972,2065,1788,1190,1244,1298,1352,1406,1460,931,859,999,1663,1037,2148,1598,2108,2023"
+                        "startLines": "20,18,19,22,23",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "787,689,736,834,880",
+                        "endColumns": "45,46,50,45,50",
+                        "endOffsets": "828,731,782,875,926"
                     },
                     "to": {
-                        "startLines": "786,791,792,793,796,797,799,800,804,810,811,812,813,814,815,816,818,819,820,821,823,824,825,826,827",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "46554,47086,47126,47201,47576,47630,47840,47921,48232,49076,49140,49194,49248,49302,49356,49410,49517,49589,49661,49701,49837,49875,49915,49994,50037",
-                        "endColumns": "59,39,74,60,53,56,80,66,41,63,53,53,53,53,53,53,71,71,39,64,37,39,78,42,50",
-                        "endOffsets": "46609,47121,47196,47257,47625,47682,47916,47983,48269,49135,49189,49243,49297,49351,49405,49459,49584,49656,49696,49761,49870,49910,49989,50032,50083"
+                        "startLines": "365,366,367,387,433",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "20085,20131,20178,21538,24570",
+                        "endColumns": "45,46,50,45,50",
+                        "endOffsets": "20126,20173,20224,21579,24616"
                     }
                 },
                 {
@@ -294,6 +294,25 @@
                     }
                 },
                 {
+                    "source": "/Users/chrisan/workspace/framework/coroutine/app/src/main/res/values/preloaded_fonts.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "688",
+                        "endLines": "19",
+                        "endColumns": "12",
+                        "endOffsets": "786"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "3667",
+                        "endLines": "18",
+                        "endColumns": "12",
+                        "endOffsets": "3765"
+                    }
+                },
+                {
                     "source": "/Users/chrisan/.gradle/caches/transforms-2/files-2.1/a6dfd68aff61b817ece7fb52a56eeb3f/cardview-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,35,36,37,38,45,47,50,7",
@@ -310,25 +329,6 @@
                         "endLines": "39,361,362,363,364,512,513,514,869,2264,2267,2270,4004",
                         "endColumns": "51,60,61,61,63,58,56,53,12,12,12,12,24",
                         "endOffsets": "4696,19892,19954,20016,20080,29987,30044,30098,52942,144032,144158,144286,252473"
-                    }
-                },
-                {
-                    "source": "/Users/chrisan/workspace/android/android-kotlin-fundamentals-starter-apps/TrackMySleepQualityCoroutines-Starter/app/src/main/res/values/font_certs.xml",
-                    "from": {
-                        "startLines": "17,21,26",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "688,890,2615",
-                        "endLines": "20,25,30",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "885,2610,4200"
-                    },
-                    "to": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "150,352,2077",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "347,2072,3662"
                     }
                 },
                 {
