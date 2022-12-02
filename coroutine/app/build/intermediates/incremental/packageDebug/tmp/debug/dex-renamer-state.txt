@@ -1,4 +1,4 @@
-#Fri Dec 02 19:03:53 KST 2022
+#Fri Dec 02 20:39:48 KST 2022
 base.0=/Users/chrisan/workspace/framework/coroutine/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -8,6 +8,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.android.trackmysleepquality.R
+import com.example.android.trackmysleepquality.coroutine_example.Coroutine
 import com.example.android.trackmysleepquality.database.SleepDatabase
 import com.example.android.trackmysleepquality.databinding.FragmentSleepTrackerBinding
 
@@ -30,6 +31,15 @@ class SleepTrackerFragment : Fragment() {
                 ViewModelProvider(
                     this, viewModelFactory).get(SleepTrackerViewModel::class.java)
 
+
+        // activity 바인딩의 수명 주기 소유자로 설정
+        binding.lifecycleOwner = this
+        binding.sleepTrackerViewModel = sleepTrackerViewModel
+
+        /** coroutine example Test */
+//        binding.clearButton.setOnClickListener {
+//            Coroutine.exampleSuspend()
+//        }
         return binding.root
     }
 }

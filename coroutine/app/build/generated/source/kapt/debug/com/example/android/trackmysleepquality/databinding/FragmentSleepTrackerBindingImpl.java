@@ -47,7 +47,7 @@ public class FragmentSleepTrackerBindingImpl extends FragmentSleepTrackerBinding
     @Override
     public void invalidateAll() {
         synchronized(this) {
-                mDirtyFlags = 0x1L;
+                mDirtyFlags = 0x2L;
         }
         requestRebind();
     }
@@ -65,7 +65,17 @@ public class FragmentSleepTrackerBindingImpl extends FragmentSleepTrackerBinding
     @Override
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
+        if (BR.sleepTrackerViewModel == variableId) {
+            setSleepTrackerViewModel((com.example.android.trackmysleepquality.sleeptracker.SleepTrackerViewModel) variable);
+        }
+        else {
+            variableSet = false;
+        }
             return variableSet;
+    }
+
+    public void setSleepTrackerViewModel(@Nullable com.example.android.trackmysleepquality.sleeptracker.SleepTrackerViewModel SleepTrackerViewModel) {
+        this.mSleepTrackerViewModel = SleepTrackerViewModel;
     }
 
     @Override
@@ -89,7 +99,8 @@ public class FragmentSleepTrackerBindingImpl extends FragmentSleepTrackerBinding
     // dirty flag
     private  long mDirtyFlags = 0xffffffffffffffffL;
     /* flag mapping
-        flag 0 (0x1L): null
+        flag 0 (0x1L): sleepTrackerViewModel
+        flag 1 (0x2L): null
     flag mapping end*/
     //end
 }
