@@ -1,7 +1,7 @@
 # android-framework
 - [x] Databinding
 - [x] Room
-- [ ] Coroutine
+- [x] Coroutine
 
 # UI (Layout)
 - [x] merge & include
