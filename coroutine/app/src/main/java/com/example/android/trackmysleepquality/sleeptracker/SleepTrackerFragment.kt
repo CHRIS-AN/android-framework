@@ -1,19 +1,3 @@
-/*
- * Copyright 2019, The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package com.example.android.trackmysleepquality.sleeptracker
 
 import android.os.Bundle
@@ -22,28 +6,40 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import com.example.android.trackmysleepquality.R
+import com.example.android.trackmysleepquality.database.SleepDatabase
 import com.example.android.trackmysleepquality.databinding.FragmentSleepTrackerBinding
 
-/**
- * A fragment with buttons to record start and end times for sleep, which are saved in
- * a database. Cumulative data is displayed in a simple scrollable TextView.
- * (Because we have not learned about RecyclerView yet.)
- */
 class SleepTrackerFragment : Fragment() {
-
-    /**
-     * Called when the Fragment is ready to display content to the screen.
-     *
-     * This function uses DataBindingUtil to inflate R.layout.fragment_sleep_quality.
-     */
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
 
-        // Get a reference to the binding object and inflate the fragment views.
         val binding: FragmentSleepTrackerBinding = DataBindingUtil.inflate(
                 inflater, R.layout.fragment_sleep_tracker, container, false)
+
+        val application = requireNotNull(this.activity).application
+
+        /** Create an instance of the ViewModel Factory */
+        val dataSource = SleepDatabase.getInstance(application).sleepDatabaseDao
+        val viewModelFactory = SleepTrackerViewModelFactory(dataSource, application)
+
+        /** Get a reference to the ViewModel associated with this fragment */
+        // lifecycle-extensions 모듈을 추가하지 않는 방법
+        val sleepTrackerViewModel =
+                ViewModelProvider(
+                    this, viewModelFactory).get(SleepTrackerViewModel::class.java)
 
         return binding.root
     }
 }
+
+
+/**
+    1. ViewModelProvider 를 통해 ViewModel 인스턴스를 요청한다.
+    2. ViewModelProvider 내부에서는 ViewModelStoreOwner 를 참조하여 ViewModelStore 를 가져온다.
+    3. ViewModelStore 에게 이미 생성된(저장된) ViewModel 인스턴스를 요청한다.
+    4. 만약 ViewModelStore 가 적합한 ViewModel 인스턴스를 가지고 있지 않다면,Factory 를 통해 ViewModel 인스턴스를 생성한다.
+    5. 생성한 ViewModel 인스턴스를 ViewModeStore 에 저장하고 만들어진 ViewModel 인스턴스를 클라이언트에게 반환한다.
+    6. 똑같은 ViewModel 인스턴스 요청이 들어온다면, 1~3번의 과정을 반복하게 된다.
+ */
