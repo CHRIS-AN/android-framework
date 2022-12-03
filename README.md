@@ -2,8 +2,8 @@
 - [x] Databinding
 - [x] Room
 - [x] Coroutine
-- [x] liveData
+- [x] LiveData
 
 # UI (Layout)
-- [x] merge & include
-- [x] dialog & toast & snackbar
+- [x] Merge & Include TAG
+- [x] Dialog & Toast & Snackbar
