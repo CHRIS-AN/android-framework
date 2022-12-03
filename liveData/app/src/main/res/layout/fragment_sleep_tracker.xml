@@ -40,8 +40,8 @@
              RecyclerView in a later lesson. -->
 
         <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_width="404dp"
+            android:layout_height="606dp"
             app:layout_constraintBottom_toTopOf="@+id/clear_button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintRight_toRightOf="parent"

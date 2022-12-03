@@ -20,22 +20,23 @@ class SleepTrackerViewModel(
         val database: SleepDatabaseDao,
         application: Application) : AndroidViewModel(application) {
 
-    private var tonight = MutableLiveData<SleepNight?>()
+    private var tonight = MutableLiveData<SleepNight?>() // 현재 진행중인 밤
 
-    private val nights = database.getAllNights()
+    private val nights = database.getAllNights() // 모든 기록 가져오기
 
     val nightsString = Transformations.map(nights) { nights ->
         formatNights(nights, application.resources)
     }
 
+    // 시작 버튼 활성화 여부
     val startButtonVisible = Transformations.map(tonight) {
         null == it
     }
-
+    // 종료 버튼 활성화 여부
     val stopButtonVisible = Transformations.map(tonight) {
         null != it
     }
-
+    // 클리어 버튼 활성화 여부
     val clearButtonVisible = Transformations.map(nights) {
         it?.isNotEmpty()
     }
