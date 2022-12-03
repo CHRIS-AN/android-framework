@@ -37,8 +37,7 @@ class SleepQualityFragment : Fragment() {
             if (it == true) { // Observed state is true.
                 this.findNavController().navigate(
                         SleepQualityFragmentDirections.actionSleepQualityFragmentToSleepTrackerFragment())
-                // Reset state to make sure we only navigate once, even if the device
-                // has a configuration change.
+
                 sleepQualityViewModel.doneNavigating()
             }
         })
