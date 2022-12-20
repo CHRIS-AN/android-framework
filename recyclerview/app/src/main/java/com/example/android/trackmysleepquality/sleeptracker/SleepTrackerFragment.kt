@@ -48,7 +48,7 @@ class SleepTrackerFragment : Fragment() {
      * to use the [LiveData] on our ViewModel.
      */
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
+                              savedInstanceState: Bundle?): View {
 
         // Get a reference to the binding object and inflate the fragment views.
         val binding: FragmentSleepTrackerBinding = DataBindingUtil.inflate(
@@ -106,6 +106,10 @@ class SleepTrackerFragment : Fragment() {
                 sleepTrackerViewModel.doneNavigating()
             }
         })
+
+
+        val adapter = SleepNightAdapter()
+        binding.sleepList.adapter =  adapter
         return binding.root
     }
 }
